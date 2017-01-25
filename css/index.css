@@ -21,6 +21,7 @@ header {
     align-items: center;
     justify-content: flex-start;
     padding-left: 5%;
+    margin: 0 auto;
 }
 
 #about {
@@ -32,6 +33,7 @@ header {
     flex-direction: column;
     align-content: center;
     padding-left: 5%;
+    margin: 0 auto;
 }
 
 #hobbie {
@@ -43,6 +45,7 @@ header {
     flex-direction: column;
     align-content: center;
     padding-left: 5%;
+    margin: 0 auto;
 }
 
 #education {
@@ -54,6 +57,7 @@ header {
     flex-direction: column;
     align-content: center;
     padding-left: 5%;
+    margin: 0 auto;
 }
 
 #skills {
@@ -65,6 +69,7 @@ header {
     align-items: center;
     justify-content: flex-start;
     padding-left: 5%;
+    margin: 0 auto;
 }
 
 #project {
@@ -76,6 +81,7 @@ header {
     justify-content:space-between;
     align-content: center;
     padding-left: 5%;
+    margin: 0 auto;
 }
 
 #contact {
@@ -87,6 +93,7 @@ header {
     flex-direction: column;
     align-content: center;
     padding-left: 5%;
+    margin: 0 auto;
 }
 p {
     padding: 15px;
