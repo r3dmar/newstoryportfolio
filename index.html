@@ -10,19 +10,21 @@
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/diagram.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <header id="home">
-    <img src="img/Keyboard.png" width="100"></img>
-    <h1>Yaroslav Hlukhovetsky</h1>
-    <h2>Front-End developer</h2>
+        <div class = "name">
+            <h1>Yaroslav Hlukhovetsky</h1>
+            <h3>web-developer</h3>
+        </div>
+        
+    <div id="face">    
     <img src="img/me.png" width="300"></img>
+    </div>
 </header>
 <body>
     
     <main id="main">
-        
         <section id="about">
             <h2>About me!</h2>
             <p>I am try to be a web developer. I'm creating my projects using HTML5 , CSS3 , JavaScript ,jQuery.
@@ -66,7 +68,7 @@
         </section>
         
         <section id="project">
-            <img src="projects/project_1.jpg" ></img>
+            <img src="projects/project_1.jpg" class="project" ></img>
         </section>
         
         <section id="contact">
@@ -76,14 +78,14 @@
                 <br>
                 <label for="Sender email">Your Email:</label> 
                 <input type="email" name="Sender email" required>
-                </label>
                 <p><b>Enter Your comment</b></p>
-                <p><textarea rows="10" cols="45" name="text"></textarea></p>
+                <p><textarea rows="10" cols="42" name="text"></textarea></p>
                 <br>
                 <input type="submit" >
             </form>
         </section>
 </body>
+
 <footer id="footer">
         <p>Lviv 2017 ©<em>RedMar</em></p>
     </footer>

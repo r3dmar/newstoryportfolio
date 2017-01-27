@@ -16,23 +16,35 @@ header {
     background-image: url("../img/bg-1.jpg");
     background-position: center center;
     background-size: cover;
-    height: 450px;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding-left: 5%;
+
+    font-size: 20px;
     margin: 0 auto;
+}
+
+.name {
+    display: flex;
+    flex-direction:column;
+    margin: 0 auto;
+}
+
+#face {
+    display: flex;
+    justify-content: flex-end;
 }
 
 #about {
     background-image: url("../img/bg-1.png");
     background-position: center center;
     background-size: cover;
-    height: 450px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     align-content: center;
-    padding-left: 5%;
+    padding-left: 5px;
     margin: 0 auto;
 }
 
@@ -40,11 +52,11 @@ header {
     background-image: url("../img/bg-1.jpg");
     background-position: center center;
     background-size: cover;
-    height: 450px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     align-content: center;
-    padding-left: 5%;
+    padding-left: 25px;
     margin: 0 auto;
 }
 
@@ -52,11 +64,10 @@ header {
     background-image: url("../img/bg-4.jpg");
     background-position: center center;
     background-size: cover;
-    height: 450px;
+    height: 300px;
     display: flex;
     flex-direction: column;
-    align-content: center;
-    padding-left: 5%;
+    align-items: center;
     margin: 0 auto;
 }
 
@@ -64,26 +75,29 @@ header {
     background-image: url("../img/bg-1.jpg");
     background-position: center center;
     background-size: cover;
-    height: 450px;
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding-left: 5%;
     margin: 0 auto;
 }
 
 #project {
-    background-image: url("../img/bg-1.jpg");
+    background-image: url("#");
     background-position: center center;
     background-size: cover;
-    height: 600px;
+    height: 350px;
     display: flex;
-    justify-content:space-between;
+    justify-content:center;
     align-content: center;
-    padding-left: 5%;
     margin: 0 auto;
 }
-
+.project {
+    margin: 30px;
+    height: 300px;
+    width: 600px;
+    background-color: powderblue; 
+}
 #contact {
     background-image: url("../img/bg-7.jpg");
     background-position: center center;
@@ -91,10 +105,18 @@ header {
     height: 450px;
     display: flex;
     flex-direction: column;
-    align-content: center;
+    justify-content:flex-start;
     padding-left: 5%;
     margin: 0 auto;
 }
+form {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    color: white;
+    max-width: 340px;
+}
+
 p {
     padding: 15px;
 }
