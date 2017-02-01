@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Portfolio</title>
@@ -10,83 +11,98 @@
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" media="(max-width: 760px)" href="css/tablet.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <header id="home">
-        <div class = "name">
-            <h1>Yaroslav Hlukhovetsky</h1>
-            <h3>web-developer</h3>
-        </div>
-        
-    <div id="face">    
-    <img src="img/me.png" width="250" height="250"></img>
+    <div class="name">
+        <h1>Yaroslav Hlukhovetsky</h1>
+        <h3>web-developer</h3>
     </div>
+
+    <div class="erb-image-wrapper">
+        <img src="img/me.png" width="250" height="250"></img>
+    </div>
+
 </header>
+
 <body>
-    
+
     <main id="main">
         <section id="about">
             <h2>About me!</h2>
-            <p>I am try to be a web developer. I'm creating my projects using HTML5 , CSS3 , JavaScript ,jQuery.
-            I studied at the system administrator in NU "LP", but after graduation, and even when I started working in the company which was engaged in selling high quality construction tools. 
-            Up to a certain point I liked the work, but reaching the top bracket, I realized that it's time to change something. It has long wanted to try yourself in the IT industry, 
-            and my beloved advised to try to get on courses at SoftServe.
-            First attempts were made on lines "Manual QA" and "Automation QA", but I could not. Later, I found the course "HTML / CSS / JavaScr - Fundamentals" and decided to try it.
-            Price for this course is worth that would determine for themselves whether the IT industry is that for me. I love this industry, the specifics of the work,
-            and I hope that I will become a professional in their field and will demand specialist.
-            I wanna grow up in programming part of IT industry.</p>
+            <p>I am try to be a web developer. I'm creating my projects using HTML5 , CSS3 , JavaScript ,jQuery. I studied at the system administrator in NU "LP", but after graduation, and even when I started working in the company which was engaged in selling
+                high quality construction tools. Up to a certain point I liked the work, but reaching the top bracket, I realized that it's time to change something. It has long wanted to try yourself in the IT industry, and my beloved advised to try
+                to get on courses at SoftServe. First attempts were made on lines "Manual QA" and "Automation QA", but I could not. Later, I found the course "HTML / CSS / JavaScr - Fundamentals" and decided to try it. Price for this course is worth that
+                would determine for themselves whether the IT industry is that for me. I love this industry, the specifics of the work, and I hope that I will become a professional in their field and will demand specialist. I wanna grow up in programming
+                part of IT industry.</p>
             <a href="#">Download CV</a>
         </section>
-        
+
         <section id="hobbie">
             <h2>Hobies</h2>
             <h3>Scouting and treveling</h3>
-                <p> When I was little, my mother has got me to a meeting of the group "Plast". 
-                    This Ukrainian Scouts. There I learned to love the journey.</p>
+            <p> When I was little, my mother has got me to a meeting of the group "Plast". This Ukrainian Scouts. There I learned to love the journey.</p>
             <h3>Vinyl</h3>
-                <p>It is a tribute to the high quality music of the past. Soul needs of those sounds.</p>
+            <p>It is a tribute to the high quality music of the past. Soul needs of those sounds.</p>
             <h3>Cooking</h3>
             <p>I love to cook and entertain others. Cooking is cool, especially if the wine is in the glass)</p>
         </section>
-        
+
         <section id="education">
-            <h2>Education</h2>
-            <h3>Lviv gymnasium V.Symonenko</h3>
-            <p>1999-2006</p>
-            <h3>Lviv management liceum</h3>
-            <p>2006-2009</p>
-            <h3>National Univercity"Lviv Polytechnic"</h3>
-            <p>2009-2015</p>
+            <div id="edu">
+                <h2>Education</h2>
+                <h3>Lviv gymnasium V.Symonenko</h3>
+                <p>1999-2006</p>
+                <h3>Lviv management liceum</h3>
+                <p>2006-2009</p>
+                <h3>National Univercity"Lviv Polytechnic"</h3>
+                <p>2009-2015</p>
+            </div>
         </section>
-        
+
         <section id="skills">
-        <h2>Skills</h2>
-        
-        <div>75<span>%</span></div><p>HTML</p>
-        <div>50<span>%</span></div><p>CSS</p>
-        <div>40<span>%</span></div><p>JavaSrpt</p>
+            <h2>Skills</h2>
+
+            <div class=diagram>
+                <img src=img/75.png>
+                <p>HTML 73%</p>
+                <img src=img/75.png>
+                <p>CSS 55%</p>
+                <img src=img/75.png>
+                <p>JScrp 40%</p>
+            </div>
         </section>
-        
+
         <section id="project">
-            <img src="projects/project_1.jpg" class="project" ></img>
+            <img src="projects/project_1.jpg" class="project"></img>
         </section>
-        
+        <section>
+            <div class="video">
+                <h2>Some Video</h2>
+                <iframe width="640" height="360" frameborder="0" allowfullscreen src="https://player.vimeo.com/video/18678091"></iframe>
+
+                <iframe width="640" height="360" frameborder="0" allowfullscreen src="https://player.vimeo.com/video/174395743?title=0"></iframe>
+            </div>
+        </section>
         <section id="contact">
             <form method="POST" action="https://formspree.io/jaredhlukhovetsky@gmail.com">
-                <label for="Sender name">Your Name:</label>
+                <label for="name">Your Name:</label>
                 <input type="text" name="Sender name" id="Sender name" required>
                 <br>
-                <label for="Sender email">Your Email:</label> 
+                <label for="email">Your Email:</label>
                 <input type="email" name="Sender email" required>
                 <p><b>Enter Your comment</b></p>
                 <p><textarea rows="10" cols="42" name="text"></textarea></p>
                 <br>
-                <input type="submit" >
-            </form>
+                <input type="submit">
         </section>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="form.js"></script>
 </body>
 
 <footer id="footer">
-        <p>Lviv 2017 ©<em>RedMar</em></p>
-    </footer>
+    <p>Lviv 2017 ©<em>RedMar</em></p>
+</footer>
+
 </html>
