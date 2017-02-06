@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    max-width: 425px;
+    max-width: 440px;
     margin: 0 auto;
     font-family: sans-serif;
     font-size: 0.875em;
@@ -169,4 +169,7 @@ input  {
 textarea {
     width:300px;
     height: 150px;
+}
+h1{
+    font-size:32px;
 }
